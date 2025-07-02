@@ -1856,7 +1856,7 @@ OMA-URI
 |---|---|
 | \<enabled/> |Enabled|
 | \<disabled/> |Disabled. (Group policies are not reapplied until the next logon or restart or Group policies are not reapplied if they have not been changed.)|
-| \<enabled/>\<data id="CSE_NOBACKGROUND10" value="false"/><data id="CSE_NOCHANGES10" value="false"/> | Custom Settings (Recommended)|
+| \<enabled/>\<data id="CSE_NOBACKGROUND10" value="false"/>\<data id="CSE_NOCHANGES10" value="false"/> | Custom Settings (Recommended)|
 
 |Controls Version|Control|IG1|IG2|IG3|Level|
 |---|---|---|---|---|---|
@@ -2619,7 +2619,7 @@ from sleep.
 No Impact
 ```
 OMA-URI 
-./Device/Vendor/MSFT/Policy/Config/Power/RequirePasswordWhenComputerWakesOnBattery
+./Device/Vendor/MSFT/Policy/Config/Power/RequirePasswordWhenComputerWakesPluggedIn
 ```
 
 |Scope | Editions| Applicable OS |
@@ -8988,7 +8988,7 @@ this profile.
 
 ```
 OMA-URI 
-./Device/Vendor/MSFT/Policy/Config/Experience/DoNotShowFeedbackNotifications
+./Vendor/MSFT/Firewall/MdmStore/DomainProfile/EnableFirewall
 ```
 
 |Scope | Editions| Applicable OS |
